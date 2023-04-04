@@ -32,8 +32,9 @@ body{
 }
 
 /* main part */
-/* cbuttons bos */
 
+
+/* buttons */
 .button-box{
     background-color: white;
     height: 50px;
@@ -66,7 +67,25 @@ button{
 /* central box */
 .central-box{
     background-color: violet;
-    height: 100vh;
     margin: 5px 200px 0px 200px;
     border-radius: 15px;
+}
+
+/* lista 1 */
+ul{
+    font-size: 24px;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+.list{
+    padding-top: 25px;
+    padding-left: 75px;
+}
+
+.list-item{
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 40px;
+    padding-top: 10px;
 }
