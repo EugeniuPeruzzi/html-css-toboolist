@@ -105,7 +105,7 @@ span{
     font-size: 15px;
 }
 
-#cross{
+.cross{
         border: 1px solid red;
     color: red;
 }
