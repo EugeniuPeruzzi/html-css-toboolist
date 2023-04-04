@@ -66,12 +66,13 @@ button{
 
 /* central box */
 .central-box{
-    background-color: violet;
+    background-color:   lightgoldenrodyellow;
     margin: 5px 200px 0px 200px;
     border-radius: 15px;
+    padding-bottom: 70px;
 }
 
-/* lista 1 */
+/* list */
 ul{
     font-size: 24px;
     list-style-type: none;
@@ -86,6 +87,25 @@ ul{
 .list-item{
     font-size: 18px;
     font-weight: 300;
-    padding-left: 40px;
+    padding-left: 15px;
     padding-top: 10px;
+}
+
+/* list contain */
+
+span{
+    display: inline-block;
+    background: transparent;
+    border: 1px solid green;
+    color: green;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+#cross{
+        border: 1px solid red;
+    color: red;
 }
