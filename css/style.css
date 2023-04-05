@@ -17,6 +17,7 @@ body{
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .logo{
@@ -36,9 +37,7 @@ body{
 
 /* buttons */
 .button-box{
-    background-color: white;
     height: 50px;
-    margin: 50px 200px 0px 200px;
     border-radius: 15px;
 }
 
@@ -65,10 +64,13 @@ button{
 }
 
 /* central box */
-.central-box{
+.box{
     background-color: white;
     margin: 5px 200px 0px 200px;
     border-radius: 15px;
+}
+
+.central-box{
     padding-bottom: 70px;
 }
 
